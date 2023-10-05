@@ -7,7 +7,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Title>OrchardCore TawkTo Module</Title>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <PackageId>OrchardCore.TawkTo</PackageId>
+    <PackageId>TawkTo.OrchardCore</PackageId>
     <Authors>Rumen Novachkov</Authors>
     <Description>Simple unofficial integration of TawkTo in OrchardCore</Description>
     <PackageIcon>orchard-core-tawkto-logo-color.png</PackageIcon>
