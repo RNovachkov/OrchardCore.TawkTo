@@ -1,0 +1,10 @@
+[
+  {
+    "generateSourceMaps": true,
+    "watch": [ "!**/{bin,obj,node_modules}/**", "Assets/js" ],
+    "inputs": [
+      "Assets/scripts/tawk-to.js"
+    ],
+    "output": "wwwroot/scripts/tawk-to.js"
+  }
+]

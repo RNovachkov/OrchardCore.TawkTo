@@ -1,0 +1,24 @@
+﻿@model TawkToSettingsViewModel;
+
+<img src="~/OrchardCore.TawkTo/logo/melwordmark-dark.png" alt="logo" style="height: auto; max-width: calc(10rem + 0.8vw);" />
+<h3>@T["Settings"]</h3>
+<br />
+
+<div class="form-group row" asp-validation-class-for="PropertyId">
+    <div class="col-large">
+        <label asp-for="PropertyId">@T["Property ID"]</label>
+        <input asp-for="PropertyId" class="form-control" />
+        <span asp-validation-for="PropertyId"></span>
+        <span class="hint">@T["Get it from the \"Overview\" section in your widget settings."]</span>
+    </div>
+</div>
+
+<div class="form-group row" asp-validation-class-for="WidgetId">
+    <div class="col-large">
+        <label asp-for="WidgetId">@T["Widget ID"]</label>
+        <input asp-for="WidgetId" class="form-control" />
+        <span asp-validation-for="WidgetId"></span>
+        <span class="hint">@T["Get it from the \"Channels/Chat Widget\" subsection in your widget settings."]</span>
+    </div>
+</div>
+<br />
