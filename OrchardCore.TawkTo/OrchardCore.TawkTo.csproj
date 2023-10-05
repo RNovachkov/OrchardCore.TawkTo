@@ -5,6 +5,15 @@
     <AddRazorSupportForMvc>true</AddRazorSupportForMvc>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <Title>OrchardCore TawkTo Module</Title>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageId>OrchardCore.TawkTo</PackageId>
+    <Authors>Rumen Novachkov</Authors>
+    <Description>Simple unofficial integration of TawkTo in OrchardCore</Description>
+    <PackageIcon>orchard-core-tawkto-logo-color.png</PackageIcon>
+    <RepositoryUrl>https://github.com/RNovachkov/OrchardCore.TawkTo</RepositoryUrl>
+    <PackageTags>communication;customer;chat;realtime;client;orchard;core;tawk;tawkto</PackageTags>
+    <PackageProjectUrl>https://github.com/RNovachkov/OrchardCore.TawkTo</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
@@ -22,8 +31,14 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\logo\" />
     <Folder Include="wwwroot\scripts\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\logo\orchard-core-tawkto-logo-color.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
